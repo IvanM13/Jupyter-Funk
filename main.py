@@ -27,7 +27,7 @@ def switch_color():
 
 
 def func(x):
-    f = a * x ** 4 * np.sin(np.cos(x)) + b * x ** 3 + c * x ** 2 + d * x + e
+    f = -12 * x ** 4 * np.sin(np.cos(x)) - 18 * x ** 3 + 5 * x ** 2 + 10 * x - 30
     return f
 
 
